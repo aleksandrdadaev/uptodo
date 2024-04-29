@@ -1,0 +1,81 @@
+@import '/src/assets/styles/variables';
+
+.wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	padding: 26px 24px 48px;
+	background-color: $black;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title {
+	margin-bottom: 20px;
+
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	font-size: 16px;
+	line-height: 20px;
+
+	transition: color 0.2s ease;
+
+	&.error {
+		color: #ff4949;
+	}
+}
+
+.colors {
+	width: 100%;
+	overflow: auto;
+
+	display: flex;
+	gap: 12px;
+}
+
+.color {
+	width: 36px;
+	height: 36px;
+
+	border-radius: 50%;
+	cursor: pointer;
+
+	background-size: 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	transition: all 0.3s ease;
+
+	&.active {
+		background-image: url('/src/assets/icons/complete.svg');
+	}
+}
+
+.buttons {
+	width: 100%;
+	display: flex;
+	gap: 20px;
+
+	& > button:nth-child(n) {
+		width: 100%;
+	}
+}

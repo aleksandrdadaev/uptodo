@@ -1,0 +1,33 @@
+.wrapper {
+	width: 300px;
+	overflow-x: scroll;
+	margin: 20px 0 10px;
+
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.button {
+	width: 36px;
+	height: 36px;
+	flex-shrink: 0;
+	border-radius: 50%;
+
+	background-size: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&.active {
+		background-image: url('/src/assets/icons/complete.svg');
+	}
+}
+
+.buttons {
+	display: flex;
+	gap: 5px;
+
+	& > button:nth-child(n) {
+		width: 100%;
+	}
+}

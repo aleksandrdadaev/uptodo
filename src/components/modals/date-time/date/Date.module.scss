@@ -1,0 +1,18 @@
+@import '/src/assets/styles/variables';
+
+.wrapper {
+	width: fit-content;
+	padding: 10px 8px 8px;
+
+	border-radius: 4px;
+	background-color: $gray;
+}
+
+.buttons {
+	display: flex;
+	gap: 5px;
+
+	& > button:nth-child(n) {
+		width: 100%;
+	}
+}

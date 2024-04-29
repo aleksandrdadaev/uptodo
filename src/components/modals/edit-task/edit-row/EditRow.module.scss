@@ -1,0 +1,32 @@
+.icon {
+	width: 24px;
+	height: 24px;
+
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.button {
+	padding: 8px 16px;
+	border-radius: 6px;
+	background-color: rgba(255, 255, 255, 0.21);
+
+	font-size: 14px;
+	line-height: 21px;
+}

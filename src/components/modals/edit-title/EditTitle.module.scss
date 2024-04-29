@@ -1,0 +1,42 @@
+@import '/src/assets/styles/variables';
+
+.wrapper {
+	margin: 16px 0 20px;
+	padding: 0 6px;
+
+	& > *:nth-child(1) {
+		margin-bottom: 10px;
+	}
+}
+
+.input {
+	width: 100%;
+	padding: 7px 0;
+
+	border: 1px solid transparent;
+	border-radius: 4px;
+
+	font-size: 18px;
+	line-height: 27px;
+	color: $white;
+
+	transition: all 0.3s ease;
+
+	&::placeholder {
+		color: #afafaf;
+	}
+
+	&:focus {
+		padding: 7px 15px;
+		border-color: $light-gray;
+	}
+}
+
+.buttons {
+	display: flex;
+	gap: 5px;
+
+	& > button:nth-child(n) {
+		width: 100%;
+	}
+}

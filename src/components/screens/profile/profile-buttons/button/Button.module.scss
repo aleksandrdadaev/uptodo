@@ -1,0 +1,33 @@
+.button {
+	width: 100%;
+	padding: 12px 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content {
+	display: flex;
+	gap: 10px;
+
+	font-size: 16px;
+	line-height: 24px;
+
+	&.logout {
+		color: #ff4949;
+	}
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.arrow {
+	background-image: url('/src/assets/icons/profile/arrow.svg');
+}

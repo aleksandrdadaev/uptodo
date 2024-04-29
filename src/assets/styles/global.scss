@@ -1,0 +1,17 @@
+@import './reset';
+@import './variables';
+@import './calendar';
+
+body {
+	position: relative;
+	overflow-x: hidden;
+	min-width: 320px;
+	min-height: 100vh;
+
+	background-color: $black;
+
+	font-family: $default-font;
+	font-size: 20px;
+	line-height: 1;
+	color: $white;
+}

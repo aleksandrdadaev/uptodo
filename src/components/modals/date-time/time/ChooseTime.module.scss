@@ -1,0 +1,23 @@
+.wrapper {
+	margin: 20px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 13px;
+}
+
+.dots {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+}
+
+.buttons {
+	display: flex;
+	gap: 5px;
+
+	& > button:nth-child(n) {
+		width: 100%;
+	}
+}

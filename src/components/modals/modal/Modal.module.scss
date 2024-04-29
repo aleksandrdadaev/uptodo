@@ -1,0 +1,24 @@
+@import '/src/assets/styles/variables';
+
+.wrapper {
+	margin: 0 24px;
+	width: fit-content;
+	padding: 10px 8px 8px;
+	border-radius: 4px;
+	background-color: $gray;
+}
+
+.mode {
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: 1px solid $light-gray;
+
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 500;
+}

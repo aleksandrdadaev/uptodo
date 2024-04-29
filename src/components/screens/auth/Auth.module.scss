@@ -1,0 +1,53 @@
+.wrapper {
+	position: relative;
+	height: 100vh;
+	padding: 94px 24px 54px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.text {
+	text-align: center;
+
+	h1 {
+		margin-bottom: 28px;
+
+		font-size: 32px;
+		line-height: 38px;
+		font-weight: 700;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 24px;
+		color: rgba(255, 255, 255, 0.67);
+	}
+}
+
+.buttons {
+	button {
+		width: 100%;
+		text-transform: uppercase;
+	}
+
+	& > button:nth-child(1) {
+		margin-bottom: 28px;
+	}
+}
+
+.back {
+	position: absolute;
+	top: 14px;
+	left: 24px;
+
+	display: block;
+	width: 24px;
+	height: 24px;
+
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('/src/assets/icons/back.svg');
+}

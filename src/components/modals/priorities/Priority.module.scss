@@ -1,0 +1,53 @@
+@import '/src/assets/styles/variables';
+
+.wrapper {
+	margin: 22px 0 18px;
+	padding: 0 4px;
+	width: 100%;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 16px;
+}
+
+.button {
+	width: 64px;
+	height: 64px;
+
+	padding: 7px 20px;
+	border-radius: 4px;
+	background-color: $light-black;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+
+	font-size: 18px;
+	line-height: 21px;
+
+	transition: background-color 0.3s ease;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('/src/assets/icons/modals/priority.svg');
+}
+
+.active {
+	background-color: $accent;
+}
+
+.buttons {
+	display: flex;
+	gap: 15px;
+
+	& > button:nth-child(n) {
+		width: 100%;
+	}
+}

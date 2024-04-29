@@ -1,0 +1,16 @@
+.layout {
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	// padding: 0 24px;
+	height: 100%;
+	overflow-y: auto;
+
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+}

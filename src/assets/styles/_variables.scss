@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+$default-font: 'Ubuntu', sans-serif;
+
+// $accent: #8687e7;
+$accent: var(--accent);
+$black: #121212;
+$light-black: #272727;
+$input-black: #1d1d1d;
+$gray: #363636;
+$light-gray: #979797;
+$white: rgba(255, 255, 255, 0.87);

@@ -1,0 +1,31 @@
+@import '/src/assets/styles/variables';
+
+.menu {
+	position: absolute;
+	top: 110%;
+	left: 70%;
+	z-index: 2;
+
+	padding: 15px 10px;
+	background-color: $light-black;
+	border-radius: 6px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	.button {
+		width: fit-content;
+		height: fit-content;
+
+		font-size: 16px;
+		line-height: 16px;
+		white-space: nowrap;
+
+		transition: color 0.3s ease;
+
+		&.active {
+			color: $accent;
+		}
+	}
+}

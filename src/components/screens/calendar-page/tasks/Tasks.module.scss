@@ -1,0 +1,18 @@
+.tasks {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.buttons {
+	width: 100%;
+	padding: 15px 10px;
+	background-color: #4c4c4c;
+
+	display: flex;
+	gap: 32px;
+
+	& > button:nth-child(n) {
+		width: 100%;
+	}
+}

@@ -1,0 +1,14 @@
+.wrapper {
+	padding: 15px 10px 30px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 40px;
+	row-gap: 25px;
+}
+
+.buttonWrapper {
+	& > button:nth-child(n) {
+		width: 100%;
+	}
+}

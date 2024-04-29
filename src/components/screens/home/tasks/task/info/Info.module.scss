@@ -1,0 +1,37 @@
+@import '/src/assets/styles/variables';
+
+.wrapper {
+	position: absolute;
+	bottom: 4px;
+	right: 10px;
+
+	display: flex;
+	gap: 12px;
+}
+
+.blok {
+	padding: 4px 8px;
+	border-radius: 4px;
+
+	display: flex;
+	align-items: center;
+	gap: 5px;
+
+	font-size: 16px;
+	line-height: 21px;
+	color: #fff;
+}
+
+.priority {
+	padding: 3px 7px;
+	border: 1px solid $accent;
+}
+
+.icon {
+	width: 16px;
+	height: 16px;
+
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,63 @@
+@import '/src/assets/styles/variables';
+
+.wrapper {
+	position: relative;
+	width: 100%;
+
+	padding: 25px 25px 18px;
+	border-radius: 16px 16px 0px 0px;
+	background-color: $gray;
+}
+
+.header {
+	margin-bottom: 14px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.buttons {
+	position: absolute;
+	left: 25px;
+	bottom: 18px;
+
+	display: flex;
+	gap: 32px;
+}
+
+.button {
+	width: 24px;
+	height: 24px;
+
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&.time {
+		background-image: url('/src/assets/icons/modals/time.svg');
+	}
+	&.category {
+		background-image: url('/src/assets/icons/modals/category.svg');
+	}
+	&.priority {
+		background-image: url('/src/assets/icons/modals/priority.svg');
+	}
+	&.send {
+		margin-top: 15px;
+		background-image: url('/src/assets/icons/modals/send.svg');
+		align-self: end;
+	}
+}

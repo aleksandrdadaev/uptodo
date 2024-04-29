@@ -1,0 +1,45 @@
+@import '/src/assets/styles/variables';
+
+.button {
+	position: relative;
+	min-width: 64px;
+	min-height: 64px;
+
+	padding: 0 10px;
+	border-radius: 4px;
+	aspect-ratio: 1/1;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 500;
+
+	transition: color 0.2s ease;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -10px;
+		left: 50%;
+		right: 50%;
+
+		height: 3px;
+		background-color: $accent;
+		border-radius: 2px;
+
+		transition: all 0.3s ease;
+	}
+
+	&.active::after {
+		left: 0;
+		right: 0;
+	}
+}
+
+.img {
+	width: 32px;
+	height: 32px;
+}
